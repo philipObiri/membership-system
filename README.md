@@ -2,7 +2,7 @@
 The prototype of a membership system designed to keep records on SQLLite3 database (which comes by default with Django). 
 
 
-## Lets get the code runing locally in 7 simple steps :
+## Lets get the code runing on your local machine in 7 simple steps :
 
 -Step 1 : 
 Clone the repository 
