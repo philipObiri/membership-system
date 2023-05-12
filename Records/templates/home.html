@@ -3,7 +3,9 @@
 {% block content %}
 
 
-
+    {% if user.is_authenticated %}
+          <a href="{% url 'add_record' %}" ><button class="btn btn-primary mb-5">Add Record</button></a>
+    {% endif %}
 {% if user.is_authenticated %}
  <table class="table table-hover table-borderless align-middle  col-12">
     <thead class="table-primary"> 
@@ -37,7 +39,7 @@
   </table>
 {% else %}
 
-<div class="col-md-6 offset-md-3 text-center">
+<div class="col-md-6 offset-md-3 text-center mt-5">
 <h1>Login</h1>
 <br/>
 
